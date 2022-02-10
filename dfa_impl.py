@@ -1,6 +1,6 @@
 
 # open the file object to read
-raw_info = open(r"C:\Users\green\Documents\Computational theory\Dfa.txt").readlines()
+raw_info = open(r"C:\Users\user\Documents\Computational theory\Dfa.txt").readlines()
 
 # convert a string to list
 
@@ -43,14 +43,6 @@ F = info[3]
 delta = []
 for i in range(4,len(info)):
     delta.append(info[i])
-
-# print("Q_NUMBER: ", Q_number)
-# print("Q: ", Q)
-# print("S: ", S)
-# print("s: ",s)
-# print("F: ", F)
-# print("delta: ",delta)
-
 
 string = ''
 while True:
